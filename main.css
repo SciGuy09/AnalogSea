@@ -1,0 +1,92 @@
+*
+{
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body
+{
+	background-color: #4298f4;
+}
+
+.logo
+{
+	height: 35px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.form
+{
+	width: 400px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.form fieldset
+{
+	border: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+}
+
+.form h1
+{
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+.form label
+{
+	display: block;
+	text-align: left;
+	margin-top: 20px;
+}
+
+.form input
+{
+	display: block;
+	margin-top: 20px;
+	width: 320px;
+	padding: 15px;
+	border: 2px solid lightgrey;
+	height: 55px;
+}
+
+.form button
+{
+	width: 320px;
+	background-color: #15CD71;
+	margin-top: 30px;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	line-height: 0px;
+	height: 55px;
+	font-size: 18px;
+	font-weight: bold;
+	border-style: none;
+}
+
+.form button:hover
+{
+	background-color: lightgreen;
+}
+
+body #LogIn, body a
+{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
